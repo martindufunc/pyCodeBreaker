@@ -1,6 +1,6 @@
 # pyCodeBreaker
 
-![help pic1](demo.png)
+![help pic1](help.png)
 
 
 
