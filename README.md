@@ -1,11 +1,8 @@
 # pyCodeBreaker
 
-
-pyCodeBreaker v1.0
+pyCodeBreaker v1.0, Jan 2020, joselito.rapisora@gmail.com
 
 Based on the popular game Codebreaker/ Mastermind
-
-Jan 2020, joselito.rapisora@gmail.com
 
 Feedback and bug reports are very much appreciated!
 
