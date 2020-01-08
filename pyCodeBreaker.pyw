@@ -85,7 +85,11 @@ class Window(Frame):
         txt = "\npyCodeBreaker v1.0\nBased on the popular game Codebreaker/ Mastermind\n(c) Jan 2020, joselito.rapisora@gmail.com\nFeedback and bug reports are very much appreciated!\n"
         message = Message(t, text = txt)
         message.config(font=('Ariel', 12, 'italic'), width = 800)
-        message.pack()                                
+        message.pack()    
+        txt = "Secret Code for this session: " + codeSelect[self.hiddenCode[0]] + codeSelect[self.hiddenCode[1]] + codeSelect[self.hiddenCode[2]] + codeSelect[self.hiddenCode[3]]
+        message = Message(t, text = txt )
+        message.config(font=('Ariel', 8, 'italic'), width = 800)
+        message.pack()		
         image = PhotoImage(file="help.png")
         label = Label(t,image=image)
         label.image = image
